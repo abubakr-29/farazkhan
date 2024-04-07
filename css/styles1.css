@@ -1,0 +1,135 @@
+body {
+    /* color: white; */
+    font-family: "Tenor Sans", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: bold;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #222831;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #EEEEEE;
+    color: #000000;
+}
+
+/* Headings */
+
+.heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.subject {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 10%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #222831;
+}
+
+.navbar .container-fluid {
+    padding: 0 10%;
+}
+
+.navbar-brand {
+    font-family: "Italiana", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Content Section */
+
+#content .heading {
+    margin-bottom: 20px;
+}
+
+#content .subject {
+    margin-bottom: 50px;
+}
+
+.content-body {
+    text-align: left;
+    padding: 0 100px;
+}
+
+/* Footer Section */
+
+#footer .container-fluid {
+    padding: 4% 10%;
+}
+
+#footer .heading{
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    margin: 20px 10px;
+}
+
+@media screen and (max-width: 1028px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .subject {
+        font-size: 1.2rem;
+    }    
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    #content .subject {
+        margin-bottom: 0px;
+    }
+
+    #content .content-body {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .heading {
+        font-size: 2rem;
+    } 
+
+    .subject {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    #content .content-body {
+        padding: 20px;
+    }
+}
